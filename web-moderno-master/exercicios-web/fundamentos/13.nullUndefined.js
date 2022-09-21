@@ -1,9 +1,13 @@
+//Undefined data type
 let valor // não inicializada
 console.log(valor)
 
+//Null isn't Undefined, it just doesn't point anywhere
 valor = null // ausência de valor
 console.log(valor)
-// console.log(valor.toString()) // Erro!
+
+/*Error! Cannot read property 'toString' of null*/
+console.log(valor.toString()) 
 
 const produto = {}
 console.log(produto.preco)
