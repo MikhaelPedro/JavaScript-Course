@@ -1,3 +1,7 @@
+// Var can just be Global or in a function it'll be private
+
+
+// PUBLIC EXAMPLE
 { 
     { 
         { 
@@ -11,6 +15,8 @@
 
 console.log(sera)
 
+
+// PRIVATE EXAMPLE
 function teste() {
     var local = 123
     console.log(local)
