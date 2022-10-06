@@ -1,3 +1,5 @@
+//Let is visible only in the current block
+
 let numero = 1
 {
     let numero = 2
