@@ -6,6 +6,7 @@ for (let i = 0; i < 10; i++) {
     })
 }
 
+//Both are in the correct postion
 funcs[2]()
 funcs[6]()
 funcs[8]()
