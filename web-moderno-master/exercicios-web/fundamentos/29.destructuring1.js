@@ -8,10 +8,10 @@ const pessoa = {
         numero: 1000
     }
 }
-
+//Receive from Pessoa
 const { nome, idade } = pessoa
 console.log(nome, idade)
-
+//N and I are new variables, dynamic created
 const { nome: n, idade: i } = pessoa
 console.log(n, i)
 
