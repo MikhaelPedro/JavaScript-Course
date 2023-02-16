@@ -5,7 +5,11 @@ function rand([min = 0, max = 1000]) {
 }
 
 console.log(rand([50, 40]))
+
 console.log(rand([992]))
+
 console.log(rand([, 10]))
+//Works
 console.log(rand([]))
+//Don't work
 console.log(rand())
