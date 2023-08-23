@@ -11,6 +11,7 @@ console.log(soma1(), soma1(3), soma1(1, 2, 3), soma1(0, 0, 0))
 // estrategia 2, 3 e 4 para gerar valor padrão
 function soma2(a, b, c) {
     a = a !== undefined ? a : 1
+    //a = a != undefined ? a : 1 works wheter a is equal to null that's the difference
     b = 1 in arguments ? b : 1
     c = isNaN(c) ? 1 : c
     return a + b + c
