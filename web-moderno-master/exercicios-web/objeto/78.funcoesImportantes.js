@@ -12,6 +12,7 @@ Object.entries(pessoa).forEach(([chave, valor]) => {
     console.log(`${chave}: ${valor}`)
 })
 
+//enumerable is when it can appeard with all other fields and Writable is when you can change the value
 Object.defineProperty(pessoa, 'dataNascimento', {
     enumerable: true,
     writable: false,
